@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    /*margin: 20px;*/
+    margin: none;
+    
+}
+
+.preco{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+
+main{
+    /*margin: 20px;*/
+    margin: 15px;
+    
+}
+
+footer{
+ 
+    display: inline-flex;
+    display: flex;
+    flex-direction: row;        
+    justify-content: center;
+     
+          
+}
+ 
+.itenfooter{   
+    
+    margin: 15px;  
+
+}
+
+
+.logocabecalho{
+    width: 100%;  
+    height:250px;
+/*    max-width: 100%;*/
+}
+
+.menupadrao {        
+    margin: 10px;
+    padding: 10px;   
+    border: 1px solid red;
+}
+
+.card {
+    display: inline-flex;    
+    margin:15px;
+    padding: 5px;    
+    
+}
+
+.preco{
+  color: red;
+  
+}
+
+.itemdomenupadrao{
+    display: flex; 
+    align-items: center;
+}
+
+.logo{   
+    width: 100px;
+    height: 100px;
+    
+}
+
+.menus {
+    display: flex;    
+    flex-wrap: wrap;    
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.linkmenu{
+    
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid red;
+}
+
+
+
+@media (max-width: 1300px)
+{
+   header{
+    font-size: 9px;
+   }
+
+}
+
+@media (max-width: 460px)
+{
+  header .linkcatalogo{
+   padding: 20px;
+   margin: 15px;
+   font-size: 9px;
+  }
+  
+}
+
